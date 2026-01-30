@@ -81,6 +81,29 @@ bot/
    python -m bot.main
    ```
 
+## 🚀 Deployment
+
+### Running Permanently
+
+The bot will stop when you close your terminal/editor. To run it permanently:
+
+#### Local (Keep Your PC Running):
+
+- **Windows**: See **[WINDOWS_DEPLOYMENT.md](WINDOWS_DEPLOYMENT.md)** for running as a Windows Service
+- **Quick Start**: See **[QUICK_START_WINDOWS.md](QUICK_START_WINDOWS.md)** for 5-minute setup
+
+#### Cloud (24/7, No PC Required):
+
+- **Free Options**: See **[FREE_CLOUD_PLATFORMS.md](FREE_CLOUD_PLATFORMS.md)** ⭐ Railway, Fly.io, Koyeb, Oracle Cloud & more
+- **Advanced/VPS**: See **[DEPLOYMENT.md](DEPLOYMENT.md)** for systemd, Railway, Render, and scaling
+
+Quick Windows setup:
+
+```powershell
+# Use the interactive manager script
+.\manage_bot.ps1
+```
+
 ## 🔧 Configuration
 
 Edit `.env` file:
